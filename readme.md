@@ -26,3 +26,5 @@ OS name: "linux", version: "6.8.0-49-generic", arch: "amd64", family: "unix"
 ```
 vào trong pom.xml
 * Chạy lệnh ```mvn clean install``` , sau đó khi build xong, trong thư mục tagert có file .jar. Tiếp tục chạy ```java -jar target/your-project-name.jar``` để start server
+* nodejs version 16.20.2
+* npm install -g @angular/cli@16.2.10
