@@ -25,5 +25,4 @@ OS name: "linux", version: "6.8.0-49-generic", arch: "amd64", family: "unix"
 		</dependency>
 ```
 vào trong pom.xml
-* Chạy lệnh ```mvn clean install``` , sau đó khi build xong, trong thư mục tagert có file .jar. Tiếp tục chạy ```java -jar target/your-project-name.jar
-```
+* Chạy lệnh ```mvn clean install``` , sau đó khi build xong, trong thư mục tagert có file .jar. Tiếp tục chạy ```java -jar target/your-project-name.jar``` để start server
